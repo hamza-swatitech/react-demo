@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*Custom CSS for dropdown on Hover*/
+.dropdownDashboard:hover .dropdownMenu {
+    display: block;
+  }
+.dropdownDashboard .dropdownMenu:focus {
+    display: none;
+  }
+.documentAddedCreatedPlaceholder::placeholder{
+  color: #6E6E6E85;
+}
+
+/*Custom CSS */
